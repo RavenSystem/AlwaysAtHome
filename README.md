@@ -14,7 +14,7 @@ VPN solution based on IPSec IKEv2 for Apple devices.
 
 Setup a DDNS service to access to your public IP address from Internet using a hostname.
 
-In router web, go to WAN -> DDNS and configure as needed.
+In router web, go to `WAN -> DDNS` and configure as needed.
 
 ### 2. IPSec Setup
 
@@ -26,8 +26,8 @@ curl -o /jffs/scripts/ipsec.postconf https://raw.githubusercontent.com/RavenSyst
 
 ### 3. Configure VPN users
 
-In router web, go to VPN -> VPN Server -> IPSec VPN.
-- Set Enable IPSec VPN Server to ON.
-- At bottom, create all users with their passwords, using + button, and selecting V1&V2 for Supported IKE version.
-- When finish, click on Apply.
+In router web, go to `VPN -> VPN Server -> IPSec VPN`:
+- Set Enable IPSec VPN Server to `ON`.
+- At bottom, create all users with their passwords, using `+` button, and selecting `V1&V2` for `Supported IKE version`.
+- When finish, click on `Apply`.
 
