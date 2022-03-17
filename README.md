@@ -56,4 +56,4 @@ It is possible to add more WiFi networks, addind more lines
 <string>AAH_MYWIFI</string>
 ```
 
-When finish, share file to iPhone/iPad/macOS, and install it from iOS Settings.
+When finish, share file to iPhone/iPad/macOS, and install it from Settings.
