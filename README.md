@@ -16,6 +16,8 @@ Setup a DDNS service to access to your public IP address from Internet using a h
 
 In router web, go to `WAN -> DDNS` and configure as needed.
 
+Remmeber that if your Asus router is not connected directly to Internet, you must select `External` for `Method to retrieve WAN IP` and UDP-4500 port to it.
+
 ### 2. IPSec Setup
 
 Enter to router using SSH access, and exec following command:
@@ -30,4 +32,6 @@ In router web, go to `VPN -> VPN Server -> IPSec VPN`:
 - Set Enable IPSec VPN Server to `ON`.
 - At bottom, create all users with their passwords, using `+` button, and selecting `V1&V2` for `Supported IKE version`.
 - When finish, click on `Apply`.
+
+## iOS/iPadOS/macOS Installation
 
