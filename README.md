@@ -32,7 +32,7 @@ curl -o /jffs/scripts/ipsec.postconf https://raw.githubusercontent.com/RavenSyst
 
 In router web, go to `VPN -> VPN Server -> IPSec VPN`:
 - Set `Enable IPSec VPN Server` to `ON`.
-- At bottom, create all users with their passwords, using `+` button, and selecting `V1&V2` for `Supported IKE version`.
+- At bottom, create all users with their passwords (use very strong passwords), using `+` button, and selecting `V1&V2` for `Supported IKE version`.
 - When finish, click on `Apply`.
 
 ## iOS/iPadOS/macOS Installation
