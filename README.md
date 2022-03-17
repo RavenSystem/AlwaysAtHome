@@ -18,7 +18,7 @@ Setup a DDNS service to access to your public IP address from Internet using a h
 
 In router web, go to `WAN -> DDNS` and configure as needed.
 
-If Asus router is not connected directly to Internet, you must select `External` for `Method to retrieve WAN IP` and UDP-4500 port to it.
+If Asus router is not connected directly to Internet, you must select `External` for `Method to retrieve WAN IP` and configure NAT UDP-4500 port to it.
 
 ### 2. IPSec Setup
 
