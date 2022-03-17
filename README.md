@@ -43,4 +43,17 @@ It is not possible to connect more than one device using same user at same time.
 
 In order to work with this VPN Server, a mobile profile is needed.
 
-TO-DO
+Download [AlwaysAtHome.mobileconfig template](https://github.com/RavenSystem/AlwaysAtHome/raw/main/AlwaysAtHome.mobileconfig)
+
+You must edit template with a text editor, replacing these fields:
+- AAH_USERNAME: VPN Username
+- AAH_PASSWORD: VPN Password
+- AAH_HOSTNAME: DDNS Hostname (Warning, it appears twice).
+- AAH_MYWIFI_1, AAH_MYWIFI_2: SSID of WiFi networks where VPN is disabled.
+
+It is possible to add more WiFi networks, addind more lines
+```
+<string>AAH_MYWIFI</string>
+```
+
+When finish, share file to iPhone/iPad/macOS, and install it from iOS Settings.
