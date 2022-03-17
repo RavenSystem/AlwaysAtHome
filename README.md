@@ -8,6 +8,8 @@
 
 VPN solution based on IPSec IKEv2 for Apple devices.
 
+Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with AES128GCM, and on-demand feature to connect to VPN server automatically.
+
 ## Installation on Asus-Merlin routers
 
 [Asus-Merlin Firmware](https://www.asuswrt-merlin.net)
@@ -36,4 +38,6 @@ In router web, go to `VPN -> VPN Server -> IPSec VPN`:
 - When finish, click on `Apply`.
 
 ## iOS/iPadOS/macOS Installation
+
+In order to work with this VPN Server, a mobile profile is needed.
 
