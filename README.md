@@ -37,6 +37,8 @@ In router web, go to `VPN -> VPN Server -> IPSec VPN`:
 - At bottom, create all users with their passwords (use very strong passwords), using `+` button, and selecting `V1&V2` for `Supported IKE version`.
 - When finish, click on `Apply`.
 
+It is not possible to connect more than one device using same user at same time.
+
 ## iOS/iPadOS/macOS Installation
 
 In order to work with this VPN Server, a mobile profile is needed.
