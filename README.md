@@ -16,8 +16,18 @@ Setup a DDNS service to access to your public IP address from Internet using a h
 
 In router web, go to WAN -> DDNS and configure as needed.
 
-### 2. 
+### 2. IPSec Setup
+
+Enter to router using SSH access, and exec following command:
 
 ```shell
 curl -o /jffs/scripts/ipsec.postconf https://raw.githubusercontent.com/RavenSystem/AlwaysAtHome/main/ipsec.postconf && chmod a+x /jffs/scripts/ipsec.postconf
 ```
+
+### 3. Configure VPN users
+
+In router web, go to VPN -> VPN Server -> IPSec VPN.
+Set Enable IPSec VPN Server to ON.
+At bottom, create all users with their passwords, using + button, and selecting V1&V2 for Supported IKE version.
+When finish, click on Apply.
+
