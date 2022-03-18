@@ -12,7 +12,7 @@ Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with A
 
 ## Installation on Asus-Merlin routers
 
-You need a router running [AsusWRT-Merlin-NG Firmware](https://www.asuswrt-merlin.net) with `Administration -> System -> Enable JFFS custom scripts and configs` sets to `Yes`.
+You need a router running a recent version of [AsusWRT-Merlin-NG Firmware](https://www.asuswrt-merlin.net) with `Administration -> System -> Enable JFFS custom scripts and configs` sets to `Yes`.
 
 ### 1. DDNS
 
