@@ -12,6 +12,7 @@ Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with A
 
 Tested Asus routers:
 - RT-AX88U
+- RT-AX58U (with AES128)
 - RT-AC86U
 - RT-AC5300 (with AES128)
 
