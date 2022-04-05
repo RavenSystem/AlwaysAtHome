@@ -63,6 +63,6 @@ It is possible to add more WiFi networks, addind more lines
 <string>AAH_MYWIFI</string>
 ```
 
-**IMPORTANT:** Some AC routers, like RT-AC5300, need to replace cypher text `AES-128-CGM` with `AES-128` in template. This appears twice.
+**IMPORTANT:** Some routers, like RT-AC5300 or RT-AX58, need to replace cypher text `AES-128-CGM` with `AES-128` in template. This appears twice.
 
 When finish, copy file to iPhone/iPad/macOS using AirDrop or similar, and install it from Settings.
