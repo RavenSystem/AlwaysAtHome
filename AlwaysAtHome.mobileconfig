@@ -18,7 +18,7 @@
 					<key>DiffieHellmanGroup</key>
 					<integer>14</integer>
 					<key>EncryptionAlgorithm</key>
-					<string>AES-128-GCM</string>
+					<string>AES-128</string>
 					<key>IntegrityAlgorithm</key>
 					<string>SHA2-256</string>
 					<key>LifeTimeInMinutes</key>
@@ -41,7 +41,7 @@
 					<key>DiffieHellmanGroup</key>
 					<integer>14</integer>
 					<key>EncryptionAlgorithm</key>
-					<string>AES-128-GCM</string>
+					<string>AES-128</string>
 					<key>IntegrityAlgorithm</key>
 					<string>SHA2-256</string>
 					<key>LifeTimeInMinutes</key>
