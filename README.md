@@ -11,6 +11,7 @@ VPN solution based on IPSec IKEv2 for Apple devices.
 Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with AES128-GCM, and on-demand feature to connect to VPN server automatically.
 
 Tested Asus routers:
+- GT-AX6000 (with AES128)
 - RT-AX88U
 - RT-AX58U (with AES128)
 - RT-AC86U
