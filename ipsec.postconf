@@ -6,5 +6,6 @@ pc_insert "  mobike=no" "rekey=no" $CONFIG
 pc_replace "rekey=" "  rekey=" $CONFIG
 pc_replace "  mobike=no" "  mobike=yes" $CONFIG
 pc_replace "  dpddelay=10s" "  dpddelay=1800s" $CONFIG
+pc_delete "  esp=" $CONFIG
 pc_insert "  ike=aes256-sha1-modp1024" "esp=aes256gcm16-ecp384,aes128gcm16-ecp384,aes256-sha256,aes256-sha1,aes128-sha256,aes128-sha1,3des-sha1!" $CONFIG
 pc_replace "esp=" "  esp=" $CONFIG
