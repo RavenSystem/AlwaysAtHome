@@ -8,14 +8,14 @@
 
 VPN solution based on IPSec IKEv2 for Apple devices.
 
-Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with AES128-GCM, and on-demand feature to connect to VPN server automatically.
+Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with AES128 and SHA256, and on-demand feature to connect to VPN server automatically.
 
 Tested Asus routers:
-- GT-AX6000 (with AES128)
+- GT-AX6000
 - RT-AX88U
-- RT-AX58U (with AES128)
+- RT-AX58U
 - RT-AC86U
-- RT-AC5300 (with AES128)
+- RT-AC5300
 
 ## Installation on Asus-Merlin routers
 
@@ -63,7 +63,5 @@ It is possible to add more WiFi networks, addind more lines
 ```xml
 <string>AAH_MYWIFI</string>
 ```
-
-**IMPORTANT:** Some routers, like RT-AC5300 or RT-AX58, need to replace cypher text `AES-128-CGM` with `AES-128` in template. This appears twice.
 
 When finish, copy file to iPhone/iPad/macOS using AirDrop or similar, and install it from Settings.
