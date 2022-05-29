@@ -42,7 +42,7 @@ curl -o /jffs/scripts/ipsec.postconf https://raw.githubusercontent.com/RavenSyst
 In router web, go to `VPN -> VPN Server -> IPSec VPN`:
 - Set `Enable IPSec VPN Server` to `ON`.
 - Fill `Pre-shared Key` with any very strong pass-phrase. However, this field will not be used to connect to VPN Server.
-- At bottom, create all users with their passwords (use very strong passwords), using `+` button, and selecting `V1&V2` for `Supported IKE version`.
+- At bottom, create all users with their passwords (use very strong passwords), using `+` button, and selecting `V1&V2` for `Supported IKE version`. Use only alphanumeric characters to avoid compatibility issues with different code character sets.
 - When finish, click on `Apply`.
 
 It is not possible to connect more than one device using same user at same time.
