@@ -77,3 +77,4 @@ Enter to router using SSH access, and exec following command:
 ```shell
 rm -f /jffs/scripts/ipsec.postconf
 ```
+Then, go to `VPN -> VPN Server -> IPSec VPN` in router web and click on `Apply`.
