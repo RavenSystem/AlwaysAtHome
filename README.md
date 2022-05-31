@@ -65,3 +65,7 @@ It is possible to add more WiFi networks, addind more lines
 ```
 
 When finish, copy file to iPhone/iPad/macOS using AirDrop or similar, and install it from Settings.
+
+## Update a current installation
+
+Do step [2. IPSec Setup](#2-ipsec-setup) and then go to `VPN -> VPN Server -> IPSec VPN` in router web and click on `Apply`.
