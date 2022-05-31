@@ -69,3 +69,11 @@ When finish, copy file to iPhone/iPad/macOS using AirDrop or similar, and instal
 ## Update a current installation
 
 Do step [2. IPSec Setup](#2-ipsec-setup) and then go to `VPN -> VPN Server -> IPSec VPN` in router web and click on `Apply`.
+
+## Uninstall
+
+Enter to router using SSH access, and exec following command:
+
+```shell
+rm -f /jffs/scripts/ipsec.postconf
+```
