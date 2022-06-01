@@ -13,9 +13,10 @@ Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with A
 Tested Asus routers:
 - GT-AX6000
 - RT-AX88U
+- RT-AX86U
 - RT-AX58U
-- RT-AC86U
 - RT-AC5300
+- RT-AC86U
 
 ## Installation on Asus-Merlin routers
 
