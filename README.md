@@ -17,6 +17,7 @@ Tested Asus routers:
 - RT-AX58U
 - RT-AC5300
 - RT-AC86U
+- ~~RT-AC68U~~ does NOT support IPSec.
 
 ## Installation on Asus-Merlin routers
 
