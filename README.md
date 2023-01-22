@@ -12,7 +12,7 @@ Main goal of this solution is to use native Apple VPN IPSec IKEv2 support with A
 
 An IPSec compatible router with AsusWRT-Merlin firmware installed is needed. Check AsusWRT-Merlin supported devides: https://github.com/RMerl/asuswrt-merlin.ng/wiki/Supported-Devices
 
-Tested Asus routers:
+Tested AsusWRT-Merlin routers:
 - GT-AX6000
 - RT-AX88U
 - RT-AX86U
