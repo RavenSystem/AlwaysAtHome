@@ -63,7 +63,7 @@ You must edit template with a text editor, replacing these fields:
 - AAH_HOSTNAME: DDNS Hostname (Warning, it appears twice).
 - AAH_MYWIFI_1, AAH_MYWIFI_2: SSID of WiFi networks where VPN is disabled. It is mandatory to add WiFi where this VPN Server is running.
 
-It is possible to add more WiFi networks, addind more lines
+It is possible to add more WiFi networks, adding more lines
 ```xml
 <string>AAH_MYWIFI</string>
 ```
